@@ -14,51 +14,6 @@ $dark-navy : hsl(232, 33%, 10%);
     font-family: 'Inter', sans-serif;
 }
 
-h1 {
-    color: $navy;
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-button {
-    width: calc(100% / 12);;
-    margin: 5px 0;
-    padding: 15px;
-    color: $white;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    background-color: $navy;
-    cursor: pointer;
-}
-
-h2 {
-    margin-bottom: 5px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: $navy;
-    font-size: 0.75rem;
-    font-weight: 600;
-    input,
-    code {
-        width: fit-content;
-        padding: 5px;
-        color: $navy;
-        text-decoration: underline;
-        border: none;
-        background-color: transparent;
-        outline: none;
-    }
-    .cubicBezierInputs {
-        width: 75px;
-        max-width: 100px;
-    }
-}
-
 body {
     width: 100vw;
     min-width: 100vw;
@@ -66,88 +21,17 @@ body {
     height: 100vh;
     min-height: 100vh;
     background-color: $light-grey;
+    overflow: hidden;
 }
 
-.timing {
+.coffeemaker {
     width: 100%;
-    padding: 5vh 2.5vw;
-    &__header {
-        display: flex;
-        align-items: center;
-        gap: 25px;
-    }
-    &__list {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        list-style: none;
-    }
-    &__animation {
-        height: calc((100px / 3) + 10px);
-        position: relative;
-        border-radius: 5px;
-        background-color: $light-navy;
-        img {
-            width: 50px;
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            display: block;
-            animation: carAnimate 3s infinite forwards;
-            animation-play-state: paused;
-        }
+    height: 100%;
+    padding: 10vh 10vw 0 10vw;
 
-        &--linear {
-            img {
-                animation-timing-function: linear;
-                transition-timing-function: linear;
-            }
-        }
-        &--ease {
-            img {
-                animation-timing-function: ease;
-                transition-timing-function: ease;
-            }
-        }
-        &--ease-in {
-            img {
-                animation-timing-function: ease-in;
-                transition-timing-function: ease-in;
-            }
-        }
-        &--ease-in-out {
-            img {
-                animation-timing-function: ease-in-out;
-                transition-timing-function: ease-in-out;
-            }
-        }
-        &--ease-out {
-            img {
-                animation-timing-function: ease-out;
-                transition-timing-function: ease-out;
-            }
-        }
-        &--steps {
-            img {
-                animation-timing-function: steps(20);
-                transition-timing-function: ease;
-            }
-        }
-        &--cubic-bezier {
-            img {
-                animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
-                transition-timing-function: ease;
-            }
-        }
-    }
-}
-
-@keyframes carAnimate {
-    from {
-        left: 10px;
-    }
-    to {
-        left: calc((100% - 50px) - 10px);
+    svg {
+        height: 100%;
+        margin: 0 auto;
+        display: block;
     }
 }
