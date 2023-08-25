@@ -1,5 +1,5 @@
 {
-  "name": "coffee-maker",
+  "name": "coffee",
   "version": "1.0.0",
   "description": "Minimal coffee-maker.",
   "main": "script.js",
@@ -15,10 +15,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theo-feschotte/coffee-maker.git"
+    "url": "git+https://github.com/theo-feschotte/coffee.git"
   },
   "bugs": {
-    "url": "https://github.com/theo-feschotte/coffee-maker/issues"
+    "url": "https://github.com/theo-feschotte/coffee/issues"
   },
-  "homepage": "https://github.com/theo-feschotte/coffee-maker#readme"
+  "homepage": "https://github.com/theo-feschotte/coffee#readme"
 }
