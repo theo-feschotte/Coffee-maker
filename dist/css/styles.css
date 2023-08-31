@@ -26,5 +26,50 @@ body {
   margin: 0 auto;
   display: block;
 }
+.coffeemaker svg .coffee-body {
+  fill: hsl(0, 0%, 50%);
+}
+.coffeemaker svg .coffee-body--protection {
+  fill: hsl(0, 0%, 25%);
+}
+.coffeemaker svg .coffee-basement {
+  fill: hsl(0, 0%, 5%);
+}
+.coffeemaker svg .coffee-basement--small {
+  fill: hsl(147, 91%, 59%);
+}
+.coffeemaker svg .coffee-handle--bar {
+  fill: hsl(0, 0%, 40%);
+}
+.coffeemaker svg .coffee-handle--handle {
+  fill: hsl(0, 0%, 5%);
+}
+.coffeemaker svg .coffee-pourer {
+  fill: hsl(0, 0%, 5%);
+}
+.coffeemaker svg .coffee-flow {
+  fill: hsl(0, 33%, 33%);
+}
+.coffeemaker svg .coffee-cup {
+  fill: hsl(0, 0%, 100%);
+}
+.coffeemaker svg .coffee-head {
+  fill: hsl(0, 0%, 25%);
+}
+.coffeemaker svg .logo-border {
+  fill: hsl(0, 0%, 5%);
+}
+.coffeemaker svg .logo-background {
+  fill: hsl(147, 91%, 59%);
+}
+.coffeemaker svg .button {
+  fill: hsl(0, 0%, 50%);
+}
+.coffeemaker svg .button path {
+  fill: hsl(0, 0%, 50%);
+}
+.coffeemaker svg .button circle {
+  fill: hsl(0, 0%, 40%);
+}
 
 /*# sourceMappingURL=styles.css.map */

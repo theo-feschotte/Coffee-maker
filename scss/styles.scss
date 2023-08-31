@@ -7,6 +7,13 @@ $light-navy : hsl(232, 15%, 15%);
 $navy : hsl(232, 50%, 33%);
 $dark-navy : hsl(232, 33%, 10%);
 
+$extra-light-dark : hsl(0, 0%, 50%);
+$light-dark : hsl(0, 0%, 40%);
+$medium-dark : hsl(0, 0%, 25%);
+$dark : hsl(0, 0%, 5%);
+$green : hsl(147, 91%, 59%);
+$coffee : hsl(0, 33%, 33%);
+
 * {
     margin: 0;
     padding: 0;
@@ -33,5 +40,54 @@ body {
         height: 100%;
         margin: 0 auto;
         display: block;
+        .coffee-body {
+            fill: $extra-light-dark;
+            &--protection {
+                fill: $medium-dark;
+            }
+        }
+        .coffee-basement {
+            fill: $dark;
+            &--small {
+                fill: $green;
+            }
+        }
+        .coffee-handle {
+            &--bar {
+                fill: $light-dark;
+            }
+            &--handle {
+                fill: $dark;
+            }
+        }
+        .coffee-pourer {
+            fill: $dark;
+        }
+        .coffee-flow {
+            fill: $coffee;
+        }
+        .coffee-cup {
+            fill: $white;
+        }
+        .coffee-head {
+            fill: $medium-dark;
+        }
+        .logo {
+            &-border {
+                fill: $dark;
+            }
+            &-background {
+                fill: $green;
+            }
+        }
+        .button {
+            fill: $extra-light-dark;
+            path {
+                fill: $extra-light-dark;
+            }
+            circle {
+                fill: $light-dark;
+            }
+        }
     }
 }
