@@ -48,7 +48,7 @@ body {
   fill: hsl(0, 0%, 5%);
 }
 .coffeemaker svg .coffee-flow {
-  fill: hsl(0, 33%, 33%);
+  fill: url(#coffee-flow-gradient);
 }
 .coffeemaker svg .coffee-cup {
   fill: hsl(0, 0%, 100%);

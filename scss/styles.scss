@@ -64,7 +64,7 @@ body {
             fill: $dark;
         }
         .coffee-flow {
-            fill: $coffee;
+            fill: url(#coffee-flow-gradient);
         }
         .coffee-cup {
             fill: $white;
